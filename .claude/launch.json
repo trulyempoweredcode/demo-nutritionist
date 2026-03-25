@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "demo-nutritionist",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "D:/claude-custom-projects/Ai-Editor-Sites/demo-nutritionist", "-p", "8094", "-c-1"],
+      "port": 8094
+    }
+  ]
+}
