@@ -45,3 +45,10 @@
   --text-h2-desktop: 2rem;
   --text-h3-desktop: 1.5rem;
 }
+
+/* Split-bleed section: generous padding to match hero */
+@media (min-width: 768px) {
+  .split--bleed .split__content {
+    padding: var(--space-4xl);
+  }
+}
